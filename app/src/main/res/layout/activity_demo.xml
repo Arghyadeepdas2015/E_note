@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".demo"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello There!"
+        android:fontFamily="@font/cms"
+        android:textSize="@dimen/_30sdp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Automatic identity verification which helps you to verify your identity"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/cms"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingHorizontal="@dimen/_20sdp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="@dimen/_20sdp"
+        android:gravity="center"
+        android:fontFamily="@font/cms"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/roundcorner"
+        android:backgroundTint="#E8AD46"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:paddingVertical="@dimen/_10sdp"
+
+        />
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/cms"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/roundcorner"
+        android:backgroundTint="#000000"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        />
+</LinearLayout>

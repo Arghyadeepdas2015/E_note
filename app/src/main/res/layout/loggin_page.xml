@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="@font/cms"
+        android:textSize="@dimen/_30sdp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with your credentials"
+        android:textSize="@dimen/_15sdp"
+        android:gravity="center"
+        android:fontFamily="@font/cms"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingHorizontal="@dimen/_20sdp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:fontFamily="@font/cms"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingHorizontal="@dimen/_20sdp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/roundcorner"
+        android:hint="abc@gmail.com"
+        android:paddingHorizontal="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/cms"
+        android:paddingHorizontal="@dimen/_20sdp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/roundcorner"
+        android:paddingHorizontal="@dimen/_50sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="@dimen/_20sdp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/roundcorner"
+        android:backgroundTint="#E8AD46"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_10sdp"
+
+        />
+
+</LinearLayout>
